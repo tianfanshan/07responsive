@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+}
+header{
+  background-color: blue;
+}
+main{
+  background-color: red;
+  margin: 0ch;
+}
+.uno{
+  background-color: yellow;
+}
+footer{
+  background-color: green;
+}
+main{
+ 
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px){
+  main{
+    display: flex;
+  }
+  .uno{
+   
+  }
+}
