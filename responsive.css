@@ -15,15 +15,13 @@ footer{
   background-color: green;
 }
 main{
- 
+  max-width: 700px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480px){
+@media (min-width: 500px){
   main{
     display: flex;
   }
-  .uno{
-   
-  }
+  
 }
